@@ -1258,30 +1258,35 @@
         "cells": [
           {
             "position": {
-              "x": 485.9999999999998,
-              "y": 119.00000000000045
+              "x": 435.9999999999993,
+              "y": 109.00000000000193
             },
             "size": {
-              "width": 500,
-              "height": 350
+              "width": 600,
+              "height": 470
             },
             "attrs": {
               "label": {
-                "text": "Trust Boundary"
+                "text": "Límite del sistema"
               }
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "7dcab9fa-498d-4a18-a890-16cab81e41c0",
             "zIndex": -1,
+            "id": "7dcab9fa-498d-4a18-a890-16cab81e41c0",
             "data": {
               "type": "tm.BoundaryBox",
-              "name": "Trust Boundary",
+              "name": "Límite del sistema",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
-              "crossingFlows": [],
+              "crossingFlows": [
+                "f2a553d7-34d8-4d72-966d-ea1b4369e52a",
+                "4074da0a-cbf5-46db-8949-3db8451297d1",
+                "3a502527-94b9-4d6d-9a6c-4d55fee1fae2"
+              ],
               "containedElements": [
+                "601da4eb-9323-4714-833b-2457aee4fa00",
                 "86919454-d38d-45ec-83c0-6a2eddb1b528",
                 "4256395a-751f-4a93-aded-abb97bab1eb6",
                 "db99ea75-97b8-48bd-b645-ea04fb6ac603",
@@ -1296,8 +1301,49 @@
           },
           {
             "position": {
-              "x": 480,
-              "y": 10
+              "x": 485.99999999999943,
+              "y": 283.9999999999993
+            },
+            "size": {
+              "width": 500,
+              "height": 270
+            },
+            "attrs": {
+              "label": {
+                "text": "Zona de confianza"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "601da4eb-9323-4714-833b-2457aee4fa00",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Zona de confianza",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "35af9b32-29f0-4ba5-961e-a31bfb0c1b60",
+                "24d603f3-ba1a-405a-8d8c-faf0ac6648a4",
+                "5d6d262b-3ec4-46f0-a92e-e1091b52d617"
+              ],
+              "containedElements": [
+                "4256395a-751f-4a93-aded-abb97bab1eb6",
+                "db99ea75-97b8-48bd-b645-ea04fb6ac603",
+                "def844c7-4e73-49a9-99e9-a58dc66c72a0",
+                "7316eab8-5038-4f3e-990d-1f2a7f1d08a3",
+                "52b00472-1e7a-4d64-92be-eaf095cadabe",
+                "e08a0b4c-c711-45b2-ab60-c5191c3d6738",
+                "0a063223-c946-40c5-92b3-271031eb0e5e",
+                "e9138319-6151-4231-bfd7-400fa8e9f84f"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 410,
+              "y": -60
             },
             "size": {
               "width": 112.5,
@@ -1315,6 +1361,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -1398,7 +1445,6 @@
               ]
             },
             "id": "b2e4cf7e-96ad-46fe-b161-733a8d33f2e5",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Paciente",
@@ -1413,8 +1459,8 @@
           },
           {
             "position": {
-              "x": 676,
-              "y": 10
+              "x": 647.5,
+              "y": -60
             },
             "size": {
               "width": 112.5,
@@ -1432,6 +1478,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -1515,7 +1562,6 @@
               ]
             },
             "id": "a4c9df8c-f036-44b1-8ce8-cd942d230ab1",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "Medico",
@@ -1530,8 +1576,8 @@
           },
           {
             "position": {
-              "x": 866,
-              "y": 10
+              "x": 906,
+              "y": -60
             },
             "size": {
               "width": 112.5,
@@ -1549,6 +1595,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -1632,7 +1679,6 @@
               ]
             },
             "id": "79a27db7-503b-4eba-adc9-bb592a1efa07",
-            "zIndex": 3,
             "data": {
               "type": "tm.Actor",
               "name": "Administrador",
@@ -1648,7 +1694,7 @@
           {
             "position": {
               "x": 480,
-              "y": 503
+              "y": 603
             },
             "size": {
               "width": 112.5,
@@ -1666,6 +1712,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -1749,7 +1796,6 @@
               ]
             },
             "id": "d758d478-1403-4c11-b952-16baeece68ed",
-            "zIndex": 4,
             "data": {
               "type": "tm.Actor",
               "name": "Google Calendar",
@@ -1764,8 +1810,8 @@
           },
           {
             "position": {
-              "x": 676,
-              "y": 503
+              "x": 679.7499999999995,
+              "y": 603
             },
             "size": {
               "width": 112.5,
@@ -1783,6 +1829,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -1866,7 +1913,6 @@
               ]
             },
             "id": "627fc2dd-78ed-46ed-a165-50e7eccaf5b5",
-            "zIndex": 5,
             "data": {
               "type": "tm.Actor",
               "name": "Google Meet",
@@ -1881,8 +1927,8 @@
           },
           {
             "position": {
-              "x": 866,
-              "y": 503
+              "x": 866.5,
+              "y": 603
             },
             "size": {
               "width": 112.5,
@@ -1900,6 +1946,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -1983,7 +2030,6 @@
               ]
             },
             "id": "b3c071b5-6b47-4c13-85eb-e712c0231a31",
-            "zIndex": 6,
             "data": {
               "type": "tm.Actor",
               "name": "Gmail API",
@@ -1998,12 +2044,12 @@
           },
           {
             "position": {
-              "x": 564,
-              "y": 154
+              "x": 480,
+              "y": 143.99999999999983
             },
             "size": {
-              "width": 112.5,
-              "height": 60
+              "width": 500,
+              "height": 50
             },
             "attrs": {
               "text": {
@@ -2017,6 +2063,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 7,
             "ports": {
               "groups": {
                 "top": {
@@ -2100,7 +2147,6 @@
               ]
             },
             "id": "86919454-d38d-45ec-83c0-6a2eddb1b528",
-            "zIndex": 7,
             "data": {
               "type": "tm.Actor",
               "name": "Frontend",
@@ -2116,7 +2162,7 @@
           {
             "position": {
               "x": 500,
-              "y": 230
+              "y": 330
             },
             "size": {
               "width": 112.5,
@@ -2134,6 +2180,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 8,
             "ports": {
               "groups": {
                 "top": {
@@ -2217,7 +2264,6 @@
               ]
             },
             "id": "4256395a-751f-4a93-aded-abb97bab1eb6",
-            "zIndex": 8,
             "data": {
               "type": "tm.Actor",
               "name": "Autenticacion",
@@ -2232,8 +2278,8 @@
           },
           {
             "position": {
-              "x": 676,
-              "y": 230
+              "x": 679.7499999999994,
+              "y": 330
             },
             "size": {
               "width": 112.5,
@@ -2251,6 +2297,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 9,
             "ports": {
               "groups": {
                 "top": {
@@ -2334,7 +2381,6 @@
               ]
             },
             "id": "db99ea75-97b8-48bd-b645-ea04fb6ac603",
-            "zIndex": 9,
             "data": {
               "type": "tm.Actor",
               "name": "Citas",
@@ -2349,8 +2395,8 @@
           },
           {
             "position": {
-              "x": 834,
-              "y": 230
+              "x": 854,
+              "y": 330
             },
             "size": {
               "width": 112.5,
@@ -2368,6 +2414,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 10,
             "ports": {
               "groups": {
                 "top": {
@@ -2451,7 +2498,6 @@
               ]
             },
             "id": "def844c7-4e73-49a9-99e9-a58dc66c72a0",
-            "zIndex": 10,
             "data": {
               "type": "tm.Actor",
               "name": "Expedientes",
@@ -2465,9 +2511,327 @@
             }
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Solicitudes de citas e información clínica",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "7dcab9fa-498d-4a18-a890-16cab81e41c0"
+              ]
+            },
+            "labels": [
+              "Solicitudes de citas e información clínica"
+            ],
+            "id": "f2a553d7-34d8-4d72-966d-ea1b4369e52a",
+            "source": {
+              "cell": "86919454-d38d-45ec-83c0-6a2eddb1b528",
+              "port": "0e38aa04-00e7-4b33-a6b8-b53a9f11ab07"
+            },
+            "target": {
+              "cell": "b2e4cf7e-96ad-46fe-b161-733a8d33f2e5",
+              "port": "aa715b80-8c94-4317-b43f-5bd102742d92"
+            },
+            "vertices": [
+              {
+                "x": 420,
+                "y": 60
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Consultas y registros médicos",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "7dcab9fa-498d-4a18-a890-16cab81e41c0"
+              ]
+            },
+            "labels": [
+              "Consultas y registros médicos"
+            ],
+            "id": "4074da0a-cbf5-46db-8949-3db8451297d1",
+            "source": {
+              "cell": "86919454-d38d-45ec-83c0-6a2eddb1b528",
+              "port": "d8572c3d-cf74-4033-85c0-98a29330e118"
+            },
+            "target": {
+              "cell": "a4c9df8c-f036-44b1-8ce8-cd942d230ab1",
+              "port": "aa715b80-8c94-4317-b43f-5bd102742d92"
+            },
+            "vertices": [
+              {
+                "x": 730,
+                "y": 100
+              },
+              {
+                "x": 703.5,
+                "y": 60
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Gestión de usuarios y horarios",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "7dcab9fa-498d-4a18-a890-16cab81e41c0"
+              ]
+            },
+            "labels": [
+              "Gestión de usuarios y horarios"
+            ],
+            "id": "3a502527-94b9-4d6d-9a6c-4d55fee1fae2",
+            "source": {
+              "cell": "79a27db7-503b-4eba-adc9-bb592a1efa07",
+              "port": "aa715b80-8c94-4317-b43f-5bd102742d92"
+            },
+            "target": {
+              "cell": "86919454-d38d-45ec-83c0-6a2eddb1b528",
+              "port": "c0150255-2b1c-414d-8710-bc91e993e443"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Gestión de citas médicas",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "601da4eb-9323-4714-833b-2457aee4fa00"
+              ]
+            },
+            "labels": [
+              "Gestión de citas médicas"
+            ],
+            "id": "35af9b32-29f0-4ba5-961e-a31bfb0c1b60",
+            "source": {
+              "cell": "86919454-d38d-45ec-83c0-6a2eddb1b528",
+              "port": "aa715b80-8c94-4317-b43f-5bd102742d92"
+            },
+            "target": {
+              "cell": "db99ea75-97b8-48bd-b645-ea04fb6ac603",
+              "port": "d8572c3d-cf74-4033-85c0-98a29330e118"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Solicitudes y resultados de autenticación",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "601da4eb-9323-4714-833b-2457aee4fa00"
+              ]
+            },
+            "labels": [
+              "Solicitudes y resultados de autenticación"
+            ],
+            "id": "24d603f3-ba1a-405a-8d8c-faf0ac6648a4",
+            "source": {
+              "cell": "86919454-d38d-45ec-83c0-6a2eddb1b528",
+              "port": "aa715b80-8c94-4317-b43f-5bd102742d92"
+            },
+            "target": {
+              "cell": "4256395a-751f-4a93-aded-abb97bab1eb6",
+              "port": "d8572c3d-cf74-4033-85c0-98a29330e118"
+            },
+            "vertices": [
+              {
+                "x": 556,
+                "y": 250
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Consulta y actualización de expedientes",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "601da4eb-9323-4714-833b-2457aee4fa00"
+              ]
+            },
+            "labels": [
+              "Consulta y actualización de expedientes"
+            ],
+            "id": "5d6d262b-3ec4-46f0-a92e-e1091b52d617",
+            "source": {
+              "cell": "86919454-d38d-45ec-83c0-6a2eddb1b528",
+              "port": "aa715b80-8c94-4317-b43f-5bd102742d92"
+            },
+            "target": {
+              "cell": "def844c7-4e73-49a9-99e9-a58dc66c72a0",
+              "port": "d8572c3d-cf74-4033-85c0-98a29330e118"
+            },
+            "vertices": [
+              {
+                "x": 890,
+                "y": 240
+              }
+            ]
+          },
+          {
             "position": {
-              "x": 570,
-              "y": 310
+              "x": 592.5,
+              "y": 400
             },
             "size": {
               "width": 112.5,
@@ -2485,6 +2849,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -2568,7 +2933,6 @@
               ]
             },
             "id": "7316eab8-5038-4f3e-990d-1f2a7f1d08a3",
-            "zIndex": 11,
             "data": {
               "type": "tm.Actor",
               "name": "Documentos",
@@ -2583,8 +2947,8 @@
           },
           {
             "position": {
-              "x": 754,
-              "y": 310
+              "x": 760,
+              "y": 400
             },
             "size": {
               "width": 112.5,
@@ -2602,6 +2966,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -2685,7 +3050,6 @@
               ]
             },
             "id": "52b00472-1e7a-4d64-92be-eaf095cadabe",
-            "zIndex": 12,
             "data": {
               "type": "tm.Actor",
               "name": "Google API",
@@ -2701,7 +3065,7 @@
           {
             "position": {
               "x": 500,
-              "y": 387
+              "y": 477
             },
             "size": {
               "width": 112.5,
@@ -2719,6 +3083,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -2802,7 +3167,6 @@
               ]
             },
             "id": "e08a0b4c-c711-45b2-ab60-c5191c3d6738",
-            "zIndex": 13,
             "data": {
               "type": "tm.Actor",
               "name": "PostgreSQL",
@@ -2817,8 +3181,8 @@
           },
           {
             "position": {
-              "x": 676,
-              "y": 387
+              "x": 679.7499999999994,
+              "y": 477
             },
             "size": {
               "width": 112.5,
@@ -2836,6 +3200,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -2919,7 +3284,6 @@
               ]
             },
             "id": "0a063223-c946-40c5-92b3-271031eb0e5e",
-            "zIndex": 14,
             "data": {
               "type": "tm.Actor",
               "name": "Amazon S3",
@@ -2934,8 +3298,8 @@
           },
           {
             "position": {
-              "x": 834,
-              "y": 387
+              "x": 854,
+              "y": 477
             },
             "size": {
               "width": 112.5,
@@ -2953,6 +3317,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 15,
             "ports": {
               "groups": {
                 "top": {
@@ -3036,7 +3401,6 @@
               ]
             },
             "id": "e9138319-6151-4231-bfd7-400fa8e9f84f",
-            "zIndex": 15,
             "data": {
               "type": "tm.Actor",
               "name": "Secretos",
