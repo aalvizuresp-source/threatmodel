@@ -1258,12 +1258,12 @@
         "cells": [
           {
             "position": {
-              "x": 435.9999999999993,
-              "y": 109.00000000000193
+              "x": 315.99999999999955,
+              "y": 39.000000000002046
             },
             "size": {
-              "width": 600,
-              "height": 470
+              "width": 840,
+              "height": 530
             },
             "attrs": {
               "label": {
@@ -1281,9 +1281,7 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "f2a553d7-34d8-4d72-966d-ea1b4369e52a",
-                "4074da0a-cbf5-46db-8949-3db8451297d1",
-                "3a502527-94b9-4d6d-9a6c-4d55fee1fae2"
+                "4074da0a-cbf5-46db-8949-3db8451297d1"
               ],
               "containedElements": [
                 "601da4eb-9323-4714-833b-2457aee4fa00",
@@ -1301,12 +1299,12 @@
           },
           {
             "position": {
-              "x": 485.99999999999943,
-              "y": 283.9999999999993
+              "x": 625.9999999999984,
+              "y": 64.00000000000205
             },
             "size": {
               "width": 500,
-              "height": 270
+              "height": 480
             },
             "attrs": {
               "label": {
@@ -1342,8 +1340,8 @@
           },
           {
             "position": {
-              "x": 410,
-              "y": -60
+              "x": 90,
+              "y": 340
             },
             "size": {
               "width": 112.5,
@@ -1459,8 +1457,8 @@
           },
           {
             "position": {
-              "x": 647.5,
-              "y": -60
+              "x": 90,
+              "y": 210
             },
             "size": {
               "width": 112.5,
@@ -1576,8 +1574,8 @@
           },
           {
             "position": {
-              "x": 906,
-              "y": -60
+              "x": 90,
+              "y": 60
             },
             "size": {
               "width": 112.5,
@@ -1693,8 +1691,8 @@
           },
           {
             "position": {
-              "x": 480,
-              "y": 603
+              "x": 1416.5,
+              "y": 60
             },
             "size": {
               "width": 112.5,
@@ -1810,8 +1808,8 @@
           },
           {
             "position": {
-              "x": 679.7499999999995,
-              "y": 603
+              "x": 1416.5,
+              "y": 210
             },
             "size": {
               "width": 112.5,
@@ -1927,8 +1925,8 @@
           },
           {
             "position": {
-              "x": 866.5,
-              "y": 603
+              "x": 1416.5,
+              "y": 340
             },
             "size": {
               "width": 112.5,
@@ -2044,12 +2042,12 @@
           },
           {
             "position": {
-              "x": 480,
-              "y": 143.99999999999983
+              "x": 359.99999999999983,
+              "y": 150
             },
             "size": {
-              "width": 500,
-              "height": 50
+              "width": 230,
+              "height": 250
             },
             "attrs": {
               "text": {
@@ -2161,8 +2159,8 @@
           },
           {
             "position": {
-              "x": 500,
-              "y": 330
+              "x": 647.5,
+              "y": 460
             },
             "size": {
               "width": 112.5,
@@ -2278,7 +2276,7 @@
           },
           {
             "position": {
-              "x": 679.7499999999994,
+              "x": 647.5,
               "y": 330
             },
             "size": {
@@ -2395,8 +2393,8 @@
           },
           {
             "position": {
-              "x": 854,
-              "y": 330
+              "x": 647.5,
+              "y": 230
             },
             "size": {
               "width": 112.5,
@@ -2530,167 +2528,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Solicitudes de citas e información clínica",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": true,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "7dcab9fa-498d-4a18-a890-16cab81e41c0"
-              ]
-            },
-            "labels": [
-              "Solicitudes de citas e información clínica"
-            ],
-            "id": "f2a553d7-34d8-4d72-966d-ea1b4369e52a",
-            "source": {
-              "cell": "86919454-d38d-45ec-83c0-6a2eddb1b528",
-              "port": "0e38aa04-00e7-4b33-a6b8-b53a9f11ab07"
-            },
-            "target": {
-              "cell": "b2e4cf7e-96ad-46fe-b161-733a8d33f2e5",
-              "port": "aa715b80-8c94-4317-b43f-5bd102742d92"
-            },
-            "vertices": [
-              {
-                "x": 420,
-                "y": 60
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": "block"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Consultas y registros médicos",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": true,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "7dcab9fa-498d-4a18-a890-16cab81e41c0"
-              ]
-            },
-            "labels": [
-              "Consultas y registros médicos"
-            ],
-            "id": "4074da0a-cbf5-46db-8949-3db8451297d1",
-            "source": {
-              "cell": "86919454-d38d-45ec-83c0-6a2eddb1b528",
-              "port": "d8572c3d-cf74-4033-85c0-98a29330e118"
-            },
-            "target": {
-              "cell": "a4c9df8c-f036-44b1-8ce8-cd942d230ab1",
-              "port": "aa715b80-8c94-4317-b43f-5bd102742d92"
-            },
-            "vertices": [
-              {
-                "x": 730,
-                "y": 100
-              },
-              {
-                "x": 703.5,
-                "y": 60
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": "block"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Gestión de usuarios y horarios",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": true,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "7dcab9fa-498d-4a18-a890-16cab81e41c0"
-              ]
-            },
-            "labels": [
-              "Gestión de usuarios y horarios"
-            ],
-            "id": "3a502527-94b9-4d6d-9a6c-4d55fee1fae2",
-            "source": {
-              "cell": "79a27db7-503b-4eba-adc9-bb592a1efa07",
-              "port": "aa715b80-8c94-4317-b43f-5bd102742d92"
-            },
-            "target": {
-              "cell": "86919454-d38d-45ec-83c0-6a2eddb1b528",
-              "port": "c0150255-2b1c-414d-8710-bc91e993e443"
-            },
-            "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": "block"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Gestión de citas médicas",
               "description": "",
               "outOfScope": false,
@@ -2769,8 +2606,8 @@
             },
             "vertices": [
               {
-                "x": 556,
-                "y": 250
+                "x": 536,
+                "y": 320
               }
             ]
           },
@@ -2823,15 +2660,386 @@
             },
             "vertices": [
               {
-                "x": 890,
-                "y": 240
+                "x": 870,
+                "y": 310
               }
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Solicitudes de citas e información clínica",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Solicitudes de citas e información clínica"
+            ],
+            "id": "f2a553d7-34d8-4d72-966d-ea1b4369e52a",
+            "source": {
+              "x": 330,
+              "y": 370
+            },
+            "target": {
+              "cell": "b2e4cf7e-96ad-46fe-b161-733a8d33f2e5",
+              "port": "c0150255-2b1c-414d-8710-bc91e993e443"
+            },
+            "vertices": [
+              {
+                "x": 250,
+                "y": 460
+              }
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Consultas y registros médicos",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "7dcab9fa-498d-4a18-a890-16cab81e41c0"
+              ]
+            },
+            "labels": [
+              "Consultas y registros médicos"
+            ],
+            "id": "4074da0a-cbf5-46db-8949-3db8451297d1",
+            "source": {
+              "cell": "86919454-d38d-45ec-83c0-6a2eddb1b528",
+              "port": "0e38aa04-00e7-4b33-a6b8-b53a9f11ab07"
+            },
+            "target": {
+              "cell": "a4c9df8c-f036-44b1-8ce8-cd942d230ab1",
+              "port": "c0150255-2b1c-414d-8710-bc91e993e443"
+            },
+            "vertices": [
+              {
+                "x": 270,
+                "y": 250
+              },
+              {
+                "x": 270,
+                "y": 220
+              },
+              {
+                "x": 240,
+                "y": 220
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Gestión de usuarios y horarios",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Gestión de usuarios y horarios"
+            ],
+            "id": "3a502527-94b9-4d6d-9a6c-4d55fee1fae2",
+            "source": {
+              "cell": "79a27db7-503b-4eba-adc9-bb592a1efa07",
+              "port": "c0150255-2b1c-414d-8710-bc91e993e443"
+            },
+            "target": {
+              "x": 350,
+              "y": 160
+            },
+            "vertices": [
+              {
+                "x": 280,
+                "y": 130
+              }
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
+          },
+          {
             "position": {
-              "x": 592.5,
-              "y": 400
+              "x": 780,
+              "y": 160
             },
             "size": {
               "width": 112.5,
@@ -2947,8 +3155,8 @@
           },
           {
             "position": {
-              "x": 760,
-              "y": 400
+              "x": 819.7499999999984,
+              "y": 417
             },
             "size": {
               "width": 112.5,
@@ -3064,8 +3272,8 @@
           },
           {
             "position": {
-              "x": 500,
-              "y": 477
+              "x": 994,
+              "y": 357
             },
             "size": {
               "width": 112.5,
@@ -3181,8 +3389,8 @@
           },
           {
             "position": {
-              "x": 679.7499999999994,
-              "y": 477
+              "x": 994,
+              "y": 210
             },
             "size": {
               "width": 112.5,
@@ -3298,8 +3506,8 @@
           },
           {
             "position": {
-              "x": 854,
-              "y": 477
+              "x": 994,
+              "y": 90
             },
             "size": {
               "width": 112.5,
