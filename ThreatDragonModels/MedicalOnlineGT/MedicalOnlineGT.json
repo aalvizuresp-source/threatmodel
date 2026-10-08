@@ -35,8 +35,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "3d7aab52-b992-4ac1-bde1-c3316623ce6d",
             "zIndex": -1,
+            "id": "3d7aab52-b992-4ac1-bde1-c3316623ce6d",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -76,6 +76,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 0,
             "ports": {
               "groups": {
                 "top": {
@@ -159,7 +160,6 @@
               ]
             },
             "id": "0ac85874-a38f-4a69-9717-6ae5180500a2",
-            "zIndex": 0,
             "data": {
               "type": "tm.Actor",
               "name": "Administrador",
@@ -193,6 +193,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -276,7 +277,6 @@
               ]
             },
             "id": "7aaf78a4-304d-46ff-bbb9-645b62a9e209",
-            "zIndex": 1,
             "data": {
               "type": "tm.Process",
               "name": "MedicalOnlineGT",
@@ -313,6 +313,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -396,7 +397,6 @@
               ]
             },
             "id": "5e2cf3ba-5971-487d-9fa8-dd1fb5c645c2",
-            "zIndex": 3,
             "data": {
               "type": "tm.Actor",
               "name": "Paciente",
@@ -430,6 +430,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -513,7 +514,6 @@
               ]
             },
             "id": "138a003c-aa99-4c56-bbb2-337296c3a08e",
-            "zIndex": 4,
             "data": {
               "type": "tm.Actor",
               "name": "Google Meet",
@@ -916,6 +916,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -999,7 +1000,6 @@
               ]
             },
             "id": "521a52ca-2b93-4650-ab2a-b7b4466c3dc0",
-            "zIndex": 11,
             "data": {
               "type": "tm.Actor",
               "name": "Medico",
@@ -1028,11 +1028,12 @@
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
-                "strokeDasharray": null
+                "strokeDasharray": "4 3"
               }
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -1116,13 +1117,12 @@
               ]
             },
             "id": "1f3123f4-fdbd-40cc-8510-5e8a86a14d08",
-            "zIndex": 12,
             "data": {
               "type": "tm.Actor",
               "name": "Gmail API",
               "description": "",
               "isTrustBoundary": false,
-              "outOfScope": false,
+              "outOfScope": true,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "providesAuthentication": false,
@@ -1145,11 +1145,12 @@
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
-                "strokeDasharray": null
+                "strokeDasharray": "4 3"
               }
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -1233,13 +1234,12 @@
               ]
             },
             "id": "f14c5076-b9c4-4097-8a66-4c3eedc9e830",
-            "zIndex": 13,
             "data": {
               "type": "tm.Actor",
               "name": "Google Calendar API",
               "description": "",
               "isTrustBoundary": false,
-              "outOfScope": false,
+              "outOfScope": true,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "providesAuthentication": false,
