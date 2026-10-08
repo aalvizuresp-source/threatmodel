@@ -1258,7 +1258,7 @@
         "cells": [
           {
             "position": {
-              "x": 315.99999999999955,
+              "x": 310,
               "y": 39.000000000002046
             },
             "size": {
@@ -1281,7 +1281,9 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "4074da0a-cbf5-46db-8949-3db8451297d1"
+                "4074da0a-cbf5-46db-8949-3db8451297d1",
+                "24d603f3-ba1a-405a-8d8c-faf0ac6648a4",
+                "5d6d262b-3ec4-46f0-a92e-e1091b52d617"
               ],
               "containedElements": [
                 "601da4eb-9323-4714-833b-2457aee4fa00",
@@ -1313,8 +1315,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "601da4eb-9323-4714-833b-2457aee4fa00",
             "zIndex": -1,
+            "id": "601da4eb-9323-4714-833b-2457aee4fa00",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Zona de confianza",
@@ -1336,6 +1338,118 @@
                 "0a063223-c946-40c5-92b3-271031eb0e5e",
                 "e9138319-6151-4231-bfd7-400fa8e9f84f"
               ]
+            }
+          },
+          {
+            "shape": "edge",
+            "attrs": {
+              "line": {
+                "targetMarker": {
+                  "name": "block",
+                  "width": 12,
+                  "height": 8
+                }
+              }
+            },
+            "id": "d7fc91a9-b80c-46e1-95a7-ac5483f94782",
+            "zIndex": 0,
+            "source": {
+              "cell": "7316eab8-5038-4f3e-990d-1f2a7f1d08a3",
+              "port": "0e38aa04-00e7-4b33-a6b8-b53a9f11ab07"
+            },
+            "target": {
+              "x": 470,
+              "y": 180
+            },
+            "data": {
+              "type": "tm.Flow",
+              "name": "Carga y consulta de documentos médicos",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
             }
           },
           {
@@ -2046,7 +2160,7 @@
               "y": 150
             },
             "size": {
-              "width": 230,
+              "width": 110,
               "height": 250
             },
             "attrs": {
@@ -2528,163 +2642,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Gestión de citas médicas",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": true,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "601da4eb-9323-4714-833b-2457aee4fa00"
-              ]
-            },
-            "labels": [
-              "Gestión de citas médicas"
-            ],
-            "id": "35af9b32-29f0-4ba5-961e-a31bfb0c1b60",
-            "source": {
-              "cell": "86919454-d38d-45ec-83c0-6a2eddb1b528",
-              "port": "aa715b80-8c94-4317-b43f-5bd102742d92"
-            },
-            "target": {
-              "cell": "db99ea75-97b8-48bd-b645-ea04fb6ac603",
-              "port": "d8572c3d-cf74-4033-85c0-98a29330e118"
-            },
-            "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": "block"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Solicitudes y resultados de autenticación",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": true,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "601da4eb-9323-4714-833b-2457aee4fa00"
-              ]
-            },
-            "labels": [
-              "Solicitudes y resultados de autenticación"
-            ],
-            "id": "24d603f3-ba1a-405a-8d8c-faf0ac6648a4",
-            "source": {
-              "cell": "86919454-d38d-45ec-83c0-6a2eddb1b528",
-              "port": "aa715b80-8c94-4317-b43f-5bd102742d92"
-            },
-            "target": {
-              "cell": "4256395a-751f-4a93-aded-abb97bab1eb6",
-              "port": "d8572c3d-cf74-4033-85c0-98a29330e118"
-            },
-            "vertices": [
-              {
-                "x": 536,
-                "y": 320
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": "block"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Consulta y actualización de expedientes",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": true,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "601da4eb-9323-4714-833b-2457aee4fa00"
-              ]
-            },
-            "labels": [
-              "Consulta y actualización de expedientes"
-            ],
-            "id": "5d6d262b-3ec4-46f0-a92e-e1091b52d617",
-            "source": {
-              "cell": "86919454-d38d-45ec-83c0-6a2eddb1b528",
-              "port": "aa715b80-8c94-4317-b43f-5bd102742d92"
-            },
-            "target": {
-              "cell": "def844c7-4e73-49a9-99e9-a58dc66c72a0",
-              "port": "d8572c3d-cf74-4033-85c0-98a29330e118"
-            },
-            "vertices": [
-              {
-                "x": 870,
-                "y": 310
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": "block"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Solicitudes de citas e información clínica",
               "description": "",
               "outOfScope": false,
@@ -2715,72 +2672,7 @@
                 "x": 250,
                 "y": 460
               }
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            ]
           },
           {
             "shape": "flow",
@@ -2864,6 +2756,165 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
+              "name": "Gestión de citas médicas",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "601da4eb-9323-4714-833b-2457aee4fa00"
+              ]
+            },
+            "labels": [
+              "Gestión de citas médicas"
+            ],
+            "id": "35af9b32-29f0-4ba5-961e-a31bfb0c1b60",
+            "source": {
+              "cell": "86919454-d38d-45ec-83c0-6a2eddb1b528",
+              "port": "c0150255-2b1c-414d-8710-bc91e993e443"
+            },
+            "target": {
+              "cell": "db99ea75-97b8-48bd-b645-ea04fb6ac603",
+              "port": "0e38aa04-00e7-4b33-a6b8-b53a9f11ab07"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Solicitudes y resultados de autenticación",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "7dcab9fa-498d-4a18-a890-16cab81e41c0",
+                "601da4eb-9323-4714-833b-2457aee4fa00"
+              ]
+            },
+            "labels": [
+              "Solicitudes y resultados de autenticación"
+            ],
+            "id": "24d603f3-ba1a-405a-8d8c-faf0ac6648a4",
+            "source": {
+              "x": 470,
+              "y": 380
+            },
+            "target": {
+              "cell": "4256395a-751f-4a93-aded-abb97bab1eb6",
+              "port": "0e38aa04-00e7-4b33-a6b8-b53a9f11ab07"
+            },
+            "vertices": [
+              {
+                "x": 570,
+                "y": 460
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Consulta y actualización de expedientes",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "7dcab9fa-498d-4a18-a890-16cab81e41c0",
+                "601da4eb-9323-4714-833b-2457aee4fa00"
+              ]
+            },
+            "labels": [
+              "Consulta y actualización de expedientes"
+            ],
+            "id": "5d6d262b-3ec4-46f0-a92e-e1091b52d617",
+            "source": {
+              "x": 480,
+              "y": 210
+            },
+            "target": {
+              "cell": "def844c7-4e73-49a9-99e9-a58dc66c72a0",
+              "port": "0e38aa04-00e7-4b33-a6b8-b53a9f11ab07"
+            },
+            "vertices": [
+              {
+                "x": 570,
+                "y": 240
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
               "name": "Gestión de usuarios y horarios",
               "description": "",
               "outOfScope": false,
@@ -2894,152 +2945,12 @@
                 "x": 280,
                 "y": 130
               }
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            ]
           },
           {
             "position": {
-              "x": 780,
-              "y": 160
+              "x": 660,
+              "y": 120
             },
             "size": {
               "width": 112.5,
