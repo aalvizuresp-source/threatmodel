@@ -1283,7 +1283,10 @@
               "crossingFlows": [
                 "4074da0a-cbf5-46db-8949-3db8451297d1",
                 "24d603f3-ba1a-405a-8d8c-faf0ac6648a4",
-                "5d6d262b-3ec4-46f0-a92e-e1091b52d617"
+                "5d6d262b-3ec4-46f0-a92e-e1091b52d617",
+                "9ad1e454-133d-40d5-afc4-e885a1b6d750",
+                "6a94d883-44e2-422d-acbe-9ff48994d4db",
+                "e4361f9f-3a6d-465e-a498-991df580cc13"
               ],
               "containedElements": [
                 "601da4eb-9323-4714-833b-2457aee4fa00",
@@ -1294,8 +1297,7 @@
                 "7316eab8-5038-4f3e-990d-1f2a7f1d08a3",
                 "52b00472-1e7a-4d64-92be-eaf095cadabe",
                 "e08a0b4c-c711-45b2-ab60-c5191c3d6738",
-                "0a063223-c946-40c5-92b3-271031eb0e5e",
-                "e9138319-6151-4231-bfd7-400fa8e9f84f"
+                "0a063223-c946-40c5-92b3-271031eb0e5e"
               ]
             }
           },
@@ -1326,7 +1328,10 @@
               "crossingFlows": [
                 "35af9b32-29f0-4ba5-961e-a31bfb0c1b60",
                 "24d603f3-ba1a-405a-8d8c-faf0ac6648a4",
-                "5d6d262b-3ec4-46f0-a92e-e1091b52d617"
+                "5d6d262b-3ec4-46f0-a92e-e1091b52d617",
+                "9ad1e454-133d-40d5-afc4-e885a1b6d750",
+                "6a94d883-44e2-422d-acbe-9ff48994d4db",
+                "e4361f9f-3a6d-465e-a498-991df580cc13"
               ],
               "containedElements": [
                 "4256395a-751f-4a93-aded-abb97bab1eb6",
@@ -1335,121 +1340,8 @@
                 "7316eab8-5038-4f3e-990d-1f2a7f1d08a3",
                 "52b00472-1e7a-4d64-92be-eaf095cadabe",
                 "e08a0b4c-c711-45b2-ab60-c5191c3d6738",
-                "0a063223-c946-40c5-92b3-271031eb0e5e",
-                "e9138319-6151-4231-bfd7-400fa8e9f84f"
+                "0a063223-c946-40c5-92b3-271031eb0e5e"
               ]
-            }
-          },
-          {
-            "shape": "edge",
-            "attrs": {
-              "line": {
-                "targetMarker": {
-                  "name": "block",
-                  "width": 12,
-                  "height": 8
-                }
-              }
-            },
-            "id": "d7fc91a9-b80c-46e1-95a7-ac5483f94782",
-            "zIndex": 0,
-            "source": {
-              "cell": "7316eab8-5038-4f3e-990d-1f2a7f1d08a3",
-              "port": "0e38aa04-00e7-4b33-a6b8-b53a9f11ab07"
-            },
-            "target": {
-              "x": 470,
-              "y": 180
-            },
-            "data": {
-              "type": "tm.Flow",
-              "name": "Carga y consulta de documentos médicos",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": true,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
             }
           },
           {
@@ -1805,8 +1697,8 @@
           },
           {
             "position": {
-              "x": 1416.5,
-              "y": 60
+              "x": 1414,
+              "y": 460
             },
             "size": {
               "width": 112.5,
@@ -1922,8 +1814,8 @@
           },
           {
             "position": {
-              "x": 1416.5,
-              "y": 210
+              "x": -46,
+              "y": 509.00000000000205
             },
             "size": {
               "width": 112.5,
@@ -2039,8 +1931,8 @@
           },
           {
             "position": {
-              "x": 1416.5,
-              "y": 340
+              "x": 1414,
+              "y": 357
             },
             "size": {
               "width": 112.5,
@@ -2503,7 +2395,8 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            }
+            },
+            "children": []
           },
           {
             "position": {
@@ -2948,8 +2841,569 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Carga y consulta de documentos médicos",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "7dcab9fa-498d-4a18-a890-16cab81e41c0",
+                "601da4eb-9323-4714-833b-2457aee4fa00"
+              ]
+            },
+            "labels": [
+              "Carga y consulta de documentos médicos"
+            ],
+            "id": "9ad1e454-133d-40d5-afc4-e885a1b6d750",
+            "source": {
+              "cell": "7316eab8-5038-4f3e-990d-1f2a7f1d08a3",
+              "port": "0e38aa04-00e7-4b33-a6b8-b53a9f11ab07"
+            },
+            "target": {
+              "x": 480,
+              "y": 170
+            },
+            "vertices": [
+              {
+                "x": 550,
+                "y": 130
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Registro y consulta de citas",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Registro y consulta de citas"
+            ],
+            "id": "873c445f-ffa4-45b3-be92-237945094ccb",
+            "source": {
+              "cell": "db99ea75-97b8-48bd-b645-ea04fb6ac603",
+              "port": "c0150255-2b1c-414d-8710-bc91e993e443"
+            },
+            "target": {
+              "cell": "e08a0b4c-c711-45b2-ab60-c5191c3d6738",
+              "port": "0e38aa04-00e7-4b33-a6b8-b53a9f11ab07"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Consulta y actualización de historial clínico",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Consulta y actualización de historial clínico"
+            ],
+            "id": "341c93c0-920a-4c9f-9939-1b2e6566b9c1",
+            "source": {
+              "cell": "def844c7-4e73-49a9-99e9-a58dc66c72a0",
+              "port": "c0150255-2b1c-414d-8710-bc91e993e443"
+            },
+            "target": {
+              "cell": "e08a0b4c-c711-45b2-ab60-c5191c3d6738",
+              "port": "0e38aa04-00e7-4b33-a6b8-b53a9f11ab07"
+            },
+            "vertices": [
+              {
+                "x": 870,
+                "y": 300
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Metadatos de documentos médicos",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Metadatos de documentos médicos"
+            ],
+            "id": "9a5c98dc-27ed-4fcf-9993-db5f4a51c251",
+            "source": {
+              "cell": "7316eab8-5038-4f3e-990d-1f2a7f1d08a3",
+              "port": "c0150255-2b1c-414d-8710-bc91e993e443"
+            },
+            "target": {
+              "cell": "e08a0b4c-c711-45b2-ab60-c5191c3d6738",
+              "port": "0e38aa04-00e7-4b33-a6b8-b53a9f11ab07"
+            },
+            "vertices": [
+              {
+                "x": 820,
+                "y": 190
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Almacenamiento y recuperación de archivos",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Almacenamiento y recuperación de archivos"
+            ],
+            "id": "7351104b-bc4d-4e3a-83fa-ef9f6fe16eec",
+            "source": {
+              "cell": "7316eab8-5038-4f3e-990d-1f2a7f1d08a3",
+              "port": "c0150255-2b1c-414d-8710-bc91e993e443"
+            },
+            "target": {
+              "cell": "0a063223-c946-40c5-92b3-271031eb0e5e",
+              "port": "0e38aa04-00e7-4b33-a6b8-b53a9f11ab07"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Audio y video",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Audio y video"
+            ],
+            "id": "f9b4b2fe-7545-430f-8087-96de1933617a",
+            "source": {
+              "cell": "b2e4cf7e-96ad-46fe-b161-733a8d33f2e5",
+              "port": "aa715b80-8c94-4317-b43f-5bd102742d92"
+            },
+            "target": {
+              "cell": "627fc2dd-78ed-46ed-a165-50e7eccaf5b5",
+              "port": "d8572c3d-cf74-4033-85c0-98a29330e118"
+            },
+            "vertices": [
+              {
+                "x": 90,
+                "y": 440
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Audio y video",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Audio y video"
+            ],
+            "id": "378ae5e4-9ee6-4105-8279-8a3daaeddc82",
+            "source": {
+              "cell": "a4c9df8c-f036-44b1-8ce8-cd942d230ab1",
+              "port": "0e38aa04-00e7-4b33-a6b8-b53a9f11ab07"
+            },
+            "target": {
+              "cell": "627fc2dd-78ed-46ed-a165-50e7eccaf5b5",
+              "port": "d8572c3d-cf74-4033-85c0-98a29330e118"
+            },
+            "vertices": [
+              {
+                "x": 30,
+                "y": 290
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Creación de eventos y enlaces",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "7dcab9fa-498d-4a18-a890-16cab81e41c0",
+                "601da4eb-9323-4714-833b-2457aee4fa00"
+              ]
+            },
+            "labels": [
+              "Creación de eventos y enlaces"
+            ],
+            "id": "6a94d883-44e2-422d-acbe-9ff48994d4db",
+            "source": {
+              "cell": "52b00472-1e7a-4d64-92be-eaf095cadabe",
+              "port": "c0150255-2b1c-414d-8710-bc91e993e443"
+            },
+            "target": {
+              "cell": "d758d478-1403-4c11-b952-16baeece68ed",
+              "port": "0e38aa04-00e7-4b33-a6b8-b53a9f11ab07"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Envío de notificaciones",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "7dcab9fa-498d-4a18-a890-16cab81e41c0",
+                "601da4eb-9323-4714-833b-2457aee4fa00"
+              ]
+            },
+            "labels": [
+              "Envío de notificaciones"
+            ],
+            "id": "e4361f9f-3a6d-465e-a498-991df580cc13",
+            "source": {
+              "cell": "52b00472-1e7a-4d64-92be-eaf095cadabe",
+              "port": "c0150255-2b1c-414d-8710-bc91e993e443"
+            },
+            "target": {
+              "cell": "b3c071b5-6b47-4c13-85eb-e712c0231a31",
+              "port": "0e38aa04-00e7-4b33-a6b8-b53a9f11ab07"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Validación de usuarios y sesiones",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Validación de usuarios y sesiones"
+            ],
+            "id": "27745c09-044d-4238-8511-963da32383ba",
+            "source": {
+              "cell": "4256395a-751f-4a93-aded-abb97bab1eb6",
+              "port": "d8572c3d-cf74-4033-85c0-98a29330e118"
+            },
+            "target": {
+              "cell": "e08a0b4c-c711-45b2-ab60-c5191c3d6738",
+              "port": "0e38aa04-00e7-4b33-a6b8-b53a9f11ab07"
+            },
+            "vertices": [
+              {
+                "x": 840,
+                "y": 410
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Consultas y notificaciones",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Consultas y notificaciones"
+            ],
+            "id": "af318d71-f68f-46d6-b2e1-7b24506c422d",
+            "source": {
+              "cell": "db99ea75-97b8-48bd-b645-ea04fb6ac603",
+              "port": "aa715b80-8c94-4317-b43f-5bd102742d92"
+            },
+            "target": {
+              "cell": "52b00472-1e7a-4d64-92be-eaf095cadabe",
+              "port": "0e38aa04-00e7-4b33-a6b8-b53a9f11ab07"
+            },
+            "vertices": [
+              {
+                "x": 920,
+                "y": 500
+              }
+            ]
+          },
+          {
             "position": {
-              "x": 660,
+              "x": 647.5,
               "y": 120
             },
             "size": {
@@ -3066,8 +3520,8 @@
           },
           {
             "position": {
-              "x": 819.7499999999984,
-              "y": 417
+              "x": 994,
+              "y": 470
             },
             "size": {
               "width": 112.5,
@@ -3406,123 +3860,6 @@
             "data": {
               "type": "tm.Actor",
               "name": "Amazon S3",
-              "description": "",
-              "isTrustBoundary": false,
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "providesAuthentication": false,
-              "threats": []
-            }
-          },
-          {
-            "position": {
-              "x": 994,
-              "y": 90
-            },
-            "size": {
-              "width": 112.5,
-              "height": 60
-            },
-            "attrs": {
-              "text": {
-                "text": "Secretos"
-              },
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "actor",
-            "zIndex": 15,
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "d8572c3d-cf74-4033-85c0-98a29330e118"
-                },
-                {
-                  "group": "right",
-                  "id": "c0150255-2b1c-414d-8710-bc91e993e443"
-                },
-                {
-                  "group": "bottom",
-                  "id": "aa715b80-8c94-4317-b43f-5bd102742d92"
-                },
-                {
-                  "group": "left",
-                  "id": "0e38aa04-00e7-4b33-a6b8-b53a9f11ab07"
-                }
-              ]
-            },
-            "id": "e9138319-6151-4231-bfd7-400fa8e9f84f",
-            "data": {
-              "type": "tm.Actor",
-              "name": "Secretos",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
