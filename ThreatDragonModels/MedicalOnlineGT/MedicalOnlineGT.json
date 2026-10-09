@@ -4200,7 +4200,7 @@
           {
             "position": {
               "x": 450,
-              "y": 230
+              "y": 220
             },
             "size": {
               "width": 112.5,
@@ -4211,8 +4211,8 @@
                 "text": "Frontend"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -4309,9 +4309,27 @@
               "isTrustBoundary": false,
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "providesAuthentication": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "06f62fd5-b1fa-4c1f-9e2e-6ce57acb6ddb",
+                  "title": "Inyección de scripts en la interfaz web",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Spoofing",
+                  "description": "Un atacante podría introducir contenido malicioso que, si se procesa incorrectamente, se ejecute en el navegador y altere la interfaz o acceda a información de la sesión",
+                  "mitigation": "Codificar correctamente las salidas, validar entradas, evitar contenido HTML inseguro y configurar una política Content Security Policy",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 16,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 1,
+                "repudiation": 0
+              }
             }
           },
           {
@@ -4587,58 +4605,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Registro de diagnosticos\nConfirmacion de actualizacion",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": true,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Registro de diagnosticos\nConfirmacion de actualizacion"
-            ],
-            "id": "66ef733e-a6ed-4c5c-a367-e6594f1593b5",
-            "source": {
-              "cell": "e9678879-d284-4288-9dd6-7b42f5248a63",
-              "port": "8f339851-6d4d-40eb-9df8-37df90c937dc"
-            },
-            "target": {
-              "cell": "62ea30ca-5f10-4df4-9476-7d338ba61534",
-              "port": "e7179d83-fbe3-44a5-8402-ef272f34a77d"
-            },
-            "vertices": [
-              {
-                "x": 1040,
-                "y": 310
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": "block"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Consulta de informacion\nDatos de expediente",
               "description": "",
               "outOfScope": false,
@@ -4780,6 +4746,387 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "3fd6b45b-b9f5-4895-aaac-8c264668abd3",
+            "source": {
+              "cell": "f265cd58-5ec3-48d1-84ae-550b34ca078b",
+              "port": "0029a075-9829-424e-a355-dd1038640194"
+            },
+            "target": {
+              "cell": "603f17c6-6c33-415e-9bcb-972362418db1",
+              "port": "6cb93147-118e-4976-9cc9-831ef1f4936f"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Registro de diagnosticos\nConfirmacion de actualizacion",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Registro de diagnosticos\nConfirmacion de actualizacion"
+            ],
+            "id": "66ef733e-a6ed-4c5c-a367-e6594f1593b5",
+            "source": {
+              "cell": "e9678879-d284-4288-9dd6-7b42f5248a63",
+              "port": "8f339851-6d4d-40eb-9df8-37df90c937dc"
+            },
+            "target": {
+              "cell": "62ea30ca-5f10-4df4-9476-7d338ba61534",
+              "port": "e7179d83-fbe3-44a5-8402-ef272f34a77d"
+            },
+            "vertices": [
+              {
+                "x": 1040,
+                "y": 310
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "dc2552b4-e13c-4dd4-8f5e-50052d9f98a9",
+            "source": {
+              "cell": "f265cd58-5ec3-48d1-84ae-550b34ca078b",
+              "port": "0029a075-9829-424e-a355-dd1038640194"
+            },
+            "target": {
+              "cell": "e9678879-d284-4288-9dd6-7b42f5248a63",
+              "port": "6cb93147-118e-4976-9cc9-831ef1f4936f"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "f830fc9b-11af-4b23-8d30-79ffbea075f4",
+            "source": {
+              "cell": "f265cd58-5ec3-48d1-84ae-550b34ca078b",
+              "port": "0029a075-9829-424e-a355-dd1038640194"
+            },
+            "target": {
+              "cell": "01db4b26-6237-4b8c-b82b-12accdaaa739",
+              "port": "6cb93147-118e-4976-9cc9-831ef1f4936f"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "7bf01a8a-1f71-4d69-ad20-98b34945e287",
+            "source": {
+              "cell": "f265cd58-5ec3-48d1-84ae-550b34ca078b",
+              "port": "0029a075-9829-424e-a355-dd1038640194"
+            },
+            "target": {
+              "cell": "9a2f4b23-a864-4096-ae93-8f6de6bbbcb0",
+              "port": "4f14a733-e746-4a0e-801a-b945e4206806"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "0723d9eb-a05d-43f7-8f5e-22b3fbcc2bba",
+            "source": {
+              "cell": "603f17c6-6c33-415e-9bcb-972362418db1",
+              "port": "6cb93147-118e-4976-9cc9-831ef1f4936f"
+            },
+            "target": {
+              "cell": "9a2f4b23-a864-4096-ae93-8f6de6bbbcb0",
+              "port": "4f14a733-e746-4a0e-801a-b945e4206806"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "bdda10c6-d4ef-4ed1-bea4-5179766a56aa",
+            "source": {
+              "cell": "e9678879-d284-4288-9dd6-7b42f5248a63",
+              "port": "6cb93147-118e-4976-9cc9-831ef1f4936f"
+            },
+            "target": {
+              "cell": "9a2f4b23-a864-4096-ae93-8f6de6bbbcb0",
+              "port": "4f14a733-e746-4a0e-801a-b945e4206806"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "a6faa64a-1e31-464c-ae92-875c5cd4ac21",
+            "source": {
+              "cell": "01db4b26-6237-4b8c-b82b-12accdaaa739",
+              "port": "6cb93147-118e-4976-9cc9-831ef1f4936f"
+            },
+            "target": {
+              "cell": "9a2f4b23-a864-4096-ae93-8f6de6bbbcb0",
+              "port": "4f14a733-e746-4a0e-801a-b945e4206806"
+            },
+            "vertices": []
+          },
+          {
             "position": {
               "x": 746.25,
               "y": 118
@@ -4793,8 +5140,8 @@
                 "text": "Validar \nacceso"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -4891,12 +5238,47 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "ef573141-d20c-4724-9e31-9b7d8d961eda",
+                  "title": "Suplantación de identidad de un médico",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Spoofing",
+                  "description": "Un atacante podría utilizar credenciales comprometidas de un médico",
+                  "mitigation": "Implementar autenticación multifactor",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 1,
+                  "score": ""
+                },
+                {
+                  "id": "5fb6d101-4936-4419-920b-020d7545823c",
+                  "title": "Omisión de controles de autorización",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Elevation of privilege",
+                  "description": "Un usuario podría intentar modificar los identificadores de las solicitudes para ejecutar acciones clínicas fuera de los permisos asignados",
+                  "mitigation": "Aplicar autorización en el backend para cada operación y verificar los permisos sobre el paciente",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 6,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 1,
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 1
+              }
             }
           },
           {
@@ -4913,8 +5295,8 @@
                 "text": "Consultar\nexpediente"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -5011,19 +5393,54 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "3ef4ba58-79b5-4851-b31a-9572451a25a1",
+                  "title": "Acceso a expedientes de otros pacientes",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Un paciente podría modificar el identificador de un expediente en una solicitud y obtener información clínica perteneciente a otro usuario",
+                  "mitigation": "Verificar la identidad del solicitante y validar la autorización sobre cada expediente antes de devolver información",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 7,
+                  "score": ""
+                },
+                {
+                  "id": "26d41134-b165-4363-a144-e74488db49c4",
+                  "title": "Exposición excesiva de información clínica",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Spoofing",
+                  "description": "Las respuestas de la API podrían incluir diagnósticos, antecedentes o datos personales que el usuario no necesita visualizar",
+                  "mitigation": "Aplicar minimización de datos y filtrar los campos de respuesta según el rol y los permisos del usuario",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 8,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 1,
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 0
+              }
             },
             "children": []
           },
           {
             "position": {
               "x": 854.9999999999993,
-              "y": 270
+              "y": 263
             },
             "size": {
               "width": 100,
@@ -5034,8 +5451,8 @@
                 "text": "Actualizar\nexpediente"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -5132,12 +5549,47 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "4b6cb263-e249-4b10-8a21-5afe92c9fdf5",
+                  "title": "Modificación no autorizada de expediente clínico",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "description": "Un atacante podría manipular solicitudes enviadas al backend para modificar diagnósticos",
+                  "mitigation": "Implementar controles de autorización por expediente",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 5,
+                  "score": ""
+                },
+                {
+                  "id": "29b17a66-bb1e-41b9-ac5e-aa8ee7ef0209",
+                  "title": "Repudio de modificaciones clínicas",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Repudiation",
+                  "description": "Un usuario podría negar haber realizado cambios en un expediente médico si el sistema no registra adecuadamente la operación",
+                  "mitigation": "Registrar usuario, fecha, hora, expediente afectado y tipo de modificación en una auditoría protegida",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 9,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 1,
+                "tampering": 1,
+                "repudiation": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 0
+              }
             }
           },
           {
@@ -5154,8 +5606,8 @@
                 "text": "Gestionar\ndocumentos"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -5252,12 +5704,47 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "f692f3b7-3e54-45d0-99e4-b9d13acfe954",
+                  "title": "Carga de archivos médicos maliciosos",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "description": "Un usuario podría adjuntar archivos que contengan contenido malicioso o que no correspondan al tipo de documento permitido",
+                  "mitigation": "Validar formatos y tamaños de archivo, verificar su contenido, analizar archivos maliciosos y restringir su ejecución",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 10,
+                  "score": ""
+                },
+                {
+                  "id": "7ef51fd4-06bc-4d34-8e31-90cf0623ed69",
+                  "title": "Descarga no autorizada de documentos",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Un atacante podría intentar descargar resultados de laboratorio o imágenes médicas pertenecientes a otros pacientes",
+                  "mitigation": "Validar permisos por documento y utilizar acceso privado a Amazon S3 mediante autorizaciones controladas por el backend",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 11,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 1,
+                "tampering": 1,
+                "repudiation": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 0
+              }
             }
           },
           {
@@ -5274,8 +5761,8 @@
                 "text": "Registrar\nauditoria"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -5372,12 +5859,34 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "c2253997-5020-48ff-bf7d-ecee2aa1b8e3",
+                  "title": "Alteración o eliminación de registros de auditoría",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "description": "Un atacante con acceso indebido podría modificar o eliminar registros para ocultar actividades realizadas sobre expedientes clínicos",
+                  "mitigation": "Restringir permisos de modificación, proteger la integridad de los registros y mantener copias de auditoría con acceso limitado",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 12,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 1,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 0
+              }
             }
           },
           {
@@ -5394,11 +5903,13 @@
                 "text": "Amazon S3"
               },
               "topLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -5495,13 +6006,33 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isALog": false,
               "isEncrypted": false,
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "5dda74ec-32f1-42a7-a633-dbea7355459c",
+                  "title": "Exposición pública de documentos médicos",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Una configuración incorrecta del almacenamiento podría permitir el acceso público a resultados de laboratorio, documentos PDF o imágenes médicas",
+                  "mitigation": "Activar el bloqueo de acceso público de S3, aplicar políticas restrictivas y utilizar cifrado y controles de acceso",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 15,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
             }
           },
           {
@@ -5518,11 +6049,13 @@
                 "text": "PostgreSQL"
               },
               "topLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -5619,13 +6152,46 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isALog": false,
               "isEncrypted": false,
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "4308748d-587d-4ef2-b459-4d2099194e95",
+                  "title": "Exposición de información de PostgreSQL",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Una configuración insegura de acceso a PostgreSQL podría permitir consultas no autorizadas a los expedientes clínicos y datos personales",
+                  "mitigation": "Restringir conexiones de red, utilizar autenticación segura, cifrar las comunicaciones y aplicar privilegios mínimos",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 13,
+                  "score": ""
+                },
+                {
+                  "id": "36640753-c60f-4ecd-9336-a37f743e533d",
+                  "title": "Indisponibilidad de la base de datos",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Denial of service",
+                  "description": "Un volumen excesivo de consultas o solicitudes costosas podría agotar los recursos de PostgreSQL y dificultar el acceso a expedientes clínicos",
+                  "mitigation": "Establecer límites de solicitudes, optimizar consultas, monitorear recursos y definir mecanismos de recuperación",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 14,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "repudiation": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 1
+              }
             }
           }
         ]
@@ -5633,6 +6199,6 @@
     ],
     "diagramTop": 3,
     "reviewer": "",
-    "threatTop": 0
+    "threatTop": 16
   }
 }
