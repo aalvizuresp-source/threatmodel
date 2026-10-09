@@ -2990,7 +2990,7 @@
             "vertices": [
               {
                 "x": 870,
-                "y": 300
+                "y": 280
               }
             ]
           },
@@ -3045,53 +3045,6 @@
                 "y": 190
               }
             ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": "block"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Almacenamiento y recuperación de archivos",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": true,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Almacenamiento y recuperación de archivos"
-            ],
-            "id": "7351104b-bc4d-4e3a-83fa-ef9f6fe16eec",
-            "source": {
-              "cell": "7316eab8-5038-4f3e-990d-1f2a7f1d08a3",
-              "port": "c0150255-2b1c-414d-8710-bc91e993e443"
-            },
-            "target": {
-              "cell": "0a063223-c946-40c5-92b3-271031eb0e5e",
-              "port": "0e38aa04-00e7-4b33-a6b8-b53a9f11ab07"
-            },
-            "vertices": []
           },
           {
             "shape": "flow",
@@ -3402,6 +3355,88 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Almacenamiento y recuperación de archivos",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Almacenamiento y recuperación de archivos"
+            ],
+            "id": "7351104b-bc4d-4e3a-83fa-ef9f6fe16eec",
+            "source": {
+              "cell": "7316eab8-5038-4f3e-990d-1f2a7f1d08a3",
+              "port": "c0150255-2b1c-414d-8710-bc91e993e443"
+            },
+            "target": {
+              "cell": "0a063223-c946-40c5-92b3-271031eb0e5e",
+              "port": "d8572c3d-cf74-4033-85c0-98a29330e118"
+            },
+            "vertices": [
+              {
+                "x": 970,
+                "y": 100
+              }
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
+          },
+          {
             "position": {
               "x": 647.5,
               "y": 120
@@ -3637,8 +3672,8 @@
           },
           {
             "position": {
-              "x": 994,
-              "y": 357
+              "x": 1013.4999999999984,
+              "y": 274.00000000000205
             },
             "size": {
               "width": 112.5,
@@ -3755,7 +3790,7 @@
           {
             "position": {
               "x": 994,
-              "y": 210
+              "y": 130
             },
             "size": {
               "width": 112.5,
