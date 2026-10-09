@@ -2177,8 +2177,8 @@
                 "text": "Autenticacion"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -2275,9 +2275,40 @@
               "isTrustBoundary": false,
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "providesAuthentication": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "da43c86c-e502-4d8d-84cd-219851e45071",
+                  "title": "Saturación del servicio de autenticación",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Spoofing",
+                  "description": "Un atacante podría enviar grandes cantidades de solicitudes de inicio de sesión para consumir recursos e impedir el acceso de usuarios legítimos",
+                  "mitigation": "Implementar rate limiting, restricciones por cuenta, monitoreo de tráfico y mecanismos de protección contra automatización",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 17,
+                  "score": ""
+                },
+                {
+                  "id": "60ef8d07-d831-444b-b237-d5c0fd2a914d",
+                  "title": "Acceso a funciones administrativas sin autorización",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Spoofing",
+                  "description": "Un paciente o médico podría intentar acceder a operaciones administrativas mediante solicitudes directas a la API sin disponer del rol correspondiente",
+                  "mitigation": "Implementar control de acceso basado en roles, verificar permisos en el backend y aplicar el principio de mínimo privilegio",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 21,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 2,
+                "repudiation": 0
+              }
             }
           },
           {
@@ -2294,8 +2325,8 @@
                 "text": "Citas"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -2392,9 +2423,40 @@
               "isTrustBoundary": false,
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "providesAuthentication": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "3dee4b04-ff36-45cd-80f0-5b6f75f1b046",
+                  "title": "Modificación no autorizada de citas",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Spoofing",
+                  "description": "Un usuario podría manipular identificadores o parámetros de las solicitudes para modificar o cancelar citas médicas pertenecientes a otros pacientes",
+                  "mitigation": "Verificar los permisos sobre cada cita, validar las reglas de negocio y registrar los cambios realizados",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 18,
+                  "score": ""
+                },
+                {
+                  "id": "3602ec0f-df7f-4ddd-91a4-63e041632383",
+                  "title": "Reserva masiva automatizada de citas",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Spoofing",
+                  "description": "Un atacante podría automatizar la reserva de numerosos horarios disponibles e impedir que otros pacientes encuentren espacios para recibir atención",
+                  "mitigation": "Aplicar límites de reservas por usuario, controles de automatización y validaciones de disponibilidad y reglas de negocio",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 19,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 2,
+                "repudiation": 0
+              }
             },
             "children": []
           },
@@ -3537,8 +3599,8 @@
                 "text": "Google API"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -3635,9 +3697,27 @@
               "isTrustBoundary": false,
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "providesAuthentication": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "23ebcf7a-96c0-4bae-bbf9-89d7483e82a8",
+                  "title": "Uso indebido de credenciales de Google Workspace   Copiar",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Spoofing",
+                  "description": "Un atacante que obtenga credenciales o tokens OAuth de la integración podría intentar suplantar la identidad autorizada para utilizar Google Calendar o Gmail",
+                  "mitigation": "Proteger credenciales y tokens, utilizar permisos OAuth mínimos, restringir el acceso y revocar credenciales comprometidas",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 20,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 1,
+                "repudiation": 0
+              }
             }
           },
           {
@@ -6199,6 +6279,6 @@
     ],
     "diagramTop": 3,
     "reviewer": "",
-    "threatTop": 16
+    "threatTop": 21
   }
 }
