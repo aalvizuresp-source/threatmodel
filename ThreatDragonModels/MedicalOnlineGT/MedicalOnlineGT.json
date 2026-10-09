@@ -3883,7 +3883,1005 @@
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.6.2",
-        "cells": []
+        "cells": [
+          {
+            "position": {
+              "x": 420,
+              "y": 40
+            },
+            "size": {
+              "width": 1100,
+              "height": 520
+            },
+            "attrs": {
+              "label": {
+                "text": "Limite del sistema"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "da2b9e9a-d674-48a1-9095-2058523f46bc",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Limite del sistema",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "1fef3cdd-449f-4e73-b98e-05f251313689",
+                "5d3bc3e3-c481-4a73-b966-4221bebadcdb"
+              ],
+              "containedElements": [
+                "382c0afa-8711-4717-9086-9a1632ef850f",
+                "79bc3684-f145-4f24-9154-d27a6c4e60b6",
+                "799cb935-4e4f-478d-bb96-75df27c914f7",
+                "7d13db5e-1faf-4ffd-831e-b41e6097f72f",
+                "18f70c0a-4e90-4bb0-8cc5-a0b2bf16286e",
+                "27f4d891-8881-4ee6-bcd7-8c12654ee6a9"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 690,
+              "y": 80.00000000000045
+            },
+            "size": {
+              "width": 780,
+              "height": 370
+            },
+            "attrs": {
+              "label": {
+                "text": "Zona de confianza"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "382c0afa-8711-4717-9086-9a1632ef850f",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Zona de confianza",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": [
+                "799cb935-4e4f-478d-bb96-75df27c914f7",
+                "7d13db5e-1faf-4ffd-831e-b41e6097f72f",
+                "18f70c0a-4e90-4bb0-8cc5-a0b2bf16286e",
+                "27f4d891-8881-4ee6-bcd7-8c12654ee6a9"
+              ]
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
+            }
+          },
+          {
+            "position": {
+              "x": 90,
+              "y": 140
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Medico"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "dc774f2c-3742-4c81-9237-eb66643f1485"
+                },
+                {
+                  "group": "right",
+                  "id": "5fb14606-0e42-43f0-84dc-9018f1f73645"
+                },
+                {
+                  "group": "bottom",
+                  "id": "4696b33c-e61e-42a0-aeed-23919fb0e86c"
+                },
+                {
+                  "group": "left",
+                  "id": "c0261fb8-9f3b-4428-8820-b55c447531e8"
+                }
+              ]
+            },
+            "id": "485110df-424d-4b3e-b45a-5f1f35b88636",
+            "zIndex": 0,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Medico",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 90,
+              "y": 320
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Paciente"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "dc774f2c-3742-4c81-9237-eb66643f1485"
+                },
+                {
+                  "group": "right",
+                  "id": "5fb14606-0e42-43f0-84dc-9018f1f73645"
+                },
+                {
+                  "group": "bottom",
+                  "id": "4696b33c-e61e-42a0-aeed-23919fb0e86c"
+                },
+                {
+                  "group": "left",
+                  "id": "c0261fb8-9f3b-4428-8820-b55c447531e8"
+                }
+              ]
+            },
+            "id": "766dbb6d-6860-4537-ae6f-1374d8b22fbc",
+            "zIndex": 1,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Paciente",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 450,
+              "y": 230
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Frontend"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "dc774f2c-3742-4c81-9237-eb66643f1485"
+                },
+                {
+                  "group": "right",
+                  "id": "5fb14606-0e42-43f0-84dc-9018f1f73645"
+                },
+                {
+                  "group": "bottom",
+                  "id": "4696b33c-e61e-42a0-aeed-23919fb0e86c"
+                },
+                {
+                  "group": "left",
+                  "id": "c0261fb8-9f3b-4428-8820-b55c447531e8"
+                }
+              ]
+            },
+            "id": "79bc3684-f145-4f24-9154-d27a6c4e60b6",
+            "zIndex": 2,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Frontend",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Consulta y actualizacion de expedientes",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "da2b9e9a-d674-48a1-9095-2058523f46bc"
+              ]
+            },
+            "labels": [
+              "Consulta y actualizacion de expedientes"
+            ],
+            "id": "1fef3cdd-449f-4e73-b98e-05f251313689",
+            "source": {
+              "cell": "485110df-424d-4b3e-b45a-5f1f35b88636",
+              "port": "5fb14606-0e42-43f0-84dc-9018f1f73645"
+            },
+            "target": {
+              "cell": "79bc3684-f145-4f24-9154-d27a6c4e60b6",
+              "port": "c0261fb8-9f3b-4428-8820-b55c447531e8"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Consulta de su expediente",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "da2b9e9a-d674-48a1-9095-2058523f46bc"
+              ]
+            },
+            "labels": [
+              "Consulta de su expediente"
+            ],
+            "id": "5d3bc3e3-c481-4a73-b966-4221bebadcdb",
+            "source": {
+              "cell": "766dbb6d-6860-4537-ae6f-1374d8b22fbc",
+              "port": "5fb14606-0e42-43f0-84dc-9018f1f73645"
+            },
+            "target": {
+              "cell": "79bc3684-f145-4f24-9154-d27a6c4e60b6",
+              "port": "c0261fb8-9f3b-4428-8820-b55c447531e8"
+            },
+            "vertices": []
+          },
+          {
+            "position": {
+              "x": 750,
+              "y": 100
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Validar acceso"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "dc774f2c-3742-4c81-9237-eb66643f1485"
+                },
+                {
+                  "group": "right",
+                  "id": "5fb14606-0e42-43f0-84dc-9018f1f73645"
+                },
+                {
+                  "group": "bottom",
+                  "id": "4696b33c-e61e-42a0-aeed-23919fb0e86c"
+                },
+                {
+                  "group": "left",
+                  "id": "c0261fb8-9f3b-4428-8820-b55c447531e8"
+                }
+              ]
+            },
+            "id": "799cb935-4e4f-478d-bb96-75df27c914f7",
+            "zIndex": 11,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Validar acceso",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 750,
+              "y": 188
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Consultar expediente"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "dc774f2c-3742-4c81-9237-eb66643f1485"
+                },
+                {
+                  "group": "right",
+                  "id": "5fb14606-0e42-43f0-84dc-9018f1f73645"
+                },
+                {
+                  "group": "bottom",
+                  "id": "4696b33c-e61e-42a0-aeed-23919fb0e86c"
+                },
+                {
+                  "group": "left",
+                  "id": "c0261fb8-9f3b-4428-8820-b55c447531e8"
+                }
+              ]
+            },
+            "id": "7d13db5e-1faf-4ffd-831e-b41e6097f72f",
+            "zIndex": 12,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Consultar expediente",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 750,
+              "y": 270
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Actualizar expediente"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "dc774f2c-3742-4c81-9237-eb66643f1485"
+                },
+                {
+                  "group": "right",
+                  "id": "5fb14606-0e42-43f0-84dc-9018f1f73645"
+                },
+                {
+                  "group": "bottom",
+                  "id": "4696b33c-e61e-42a0-aeed-23919fb0e86c"
+                },
+                {
+                  "group": "left",
+                  "id": "c0261fb8-9f3b-4428-8820-b55c447531e8"
+                }
+              ]
+            },
+            "id": "18f70c0a-4e90-4bb0-8cc5-a0b2bf16286e",
+            "zIndex": 13,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Actualizar expediente",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 750,
+              "y": 363
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Registrar auditoria"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "dc774f2c-3742-4c81-9237-eb66643f1485"
+                },
+                {
+                  "group": "right",
+                  "id": "5fb14606-0e42-43f0-84dc-9018f1f73645"
+                },
+                {
+                  "group": "bottom",
+                  "id": "4696b33c-e61e-42a0-aeed-23919fb0e86c"
+                },
+                {
+                  "group": "left",
+                  "id": "c0261fb8-9f3b-4428-8820-b55c447531e8"
+                }
+              ]
+            },
+            "id": "27f4d891-8881-4ee6-bcd7-8c12654ee6a9",
+            "zIndex": 14,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Registrar auditoria",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          }
+        ]
       }
     ],
     "diagramTop": 3,
