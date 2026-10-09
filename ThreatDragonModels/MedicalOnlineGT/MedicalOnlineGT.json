@@ -5825,6 +5825,13 @@
                 "denialOfService": 0,
                 "elevationOfPrivilege": 0
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -5848,6 +5855,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 22,
             "ports": {
               "groups": {
                 "top": {
@@ -5931,7 +5939,6 @@
               ]
             },
             "id": "9a2f4b23-a864-4096-ae93-8f6de6bbbcb0",
-            "zIndex": 22,
             "data": {
               "type": "tm.Process",
               "name": "Registrar\nauditoria",
@@ -5995,6 +6002,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 23,
             "ports": {
               "groups": {
                 "top": {
@@ -6078,7 +6086,6 @@
               ]
             },
             "id": "bd91a0db-3ee2-467a-9e42-74efb7d6bc5c",
-            "zIndex": 23,
             "data": {
               "type": "tm.Store",
               "name": "Amazon S3",
@@ -6117,7 +6124,7 @@
           },
           {
             "position": {
-              "x": 1189,
+              "x": 1190,
               "y": 230
             },
             "size": {
@@ -6141,6 +6148,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 24,
             "ports": {
               "groups": {
                 "top": {
@@ -6224,7 +6232,6 @@
               ]
             },
             "id": "62ea30ca-5f10-4df4-9476-7d338ba61534",
-            "zIndex": 24,
             "data": {
               "type": "tm.Store",
               "name": "PostgreSQL",
